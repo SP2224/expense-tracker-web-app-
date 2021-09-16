@@ -1,0 +1,80 @@
+.heading{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    color: darksalmon;
+    background:grey;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#todoform{
+    width: 50%;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 10px;
+    background: goldenrod;
+    border: 1px solid black;
+}
+.taskinput{
+    width: 73%;
+    height: 15px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.addbtn{
+    height: 39px;
+    background: orange;
+    color:black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+}
+
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+
+}
+tr{
+    border-bottom: 1px solid black;
+
+}
+th{
+    font-size: 19px;
+    color: black;
+
+}
+th,td{
+    border:none;
+    height: 30px;
+    padding: 2px;
+
+}
+tr:hover{
+    background: yellow;
+}
+.task{
+    text-align: left;
+}
+.delete{
+    text-align: center
+}
+.delete a{
+    color: white;
+    background: purple;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+#left{
+    text-align: left;
+}
+#center{
+    text-align: center;
+}
+#right{
+    text-align: right;
+}
